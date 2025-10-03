@@ -1,5 +1,21 @@
-import 'package:tugas_week_3_1123150006/tugas_week_3_1123150006.dart' as tugas_week_3_1123150006;
-
-void main(List<String> arguments) {
-  print('Hello world: ${tugas_week_3_1123150006.calculate()}!');
+class Mahasiswa {
+  // Properties (atribut)
+  String nama;
+  String nim;
+  String jurusan;
+  int angkatan;
+  // Constructor
+  Mahasiswa({
+    required this.nama,
+    required this.nim,
+    required this.jurusan,
+    required this.angkatan,
+  });
+  // Method
+  void tampilkanData() {
+    print("Nama : $nama");
+    print("NIM : $nim");
+    print("Jurusan : $jurusan");
+    print("Angkatan : $angkatan");
+  }
 }
